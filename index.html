@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Inqubeko Consulting Engineers</title>
+    <meta name="description" content="Inqubeko Consulting Engineers is a Consulting Engineering practice established in Zululand (Northern Kwa-Zulu Natal) region in 2005, concentrating on civil and structural engineering as well as project management. The company was established by Mr. Freek Pretorius (Pr. Eng.), a former director of VGC Consulting Engineers in Richards Bay. In 2007 Mr Jaco Claase (Pr Tech Eng) joined the company as a director concentrating on Structural and Civil Engineering projects. The company is managed from offices situated at 5 Paul Avenue, Empangeni.">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    
+    <script src="/assets/js/scrollmage.js"></script>
+    <script type = "text/javascript">
+    
+        function displayNextImage() {
+            x = (x === images.length - 1) ? 0 : x + 1;
+            document.getElementById("img").style.backgroundImage = images[x];
+        }
+
+        function displayPreviousImage() {
+            x = (x <= 0) ? images.length - 1 : x - 1;
+            document.getElementById("img").src = images[x];
+        }
+
+        function startTimer() {
+            setInterval(displayNextImage, 3000);
+        }
+
+        var images = [], x = -1;
+        images[0] = "url(home2.jpg)";
+        images[1] = "url(home3.jpg)";
+        images[2] = "url(home4.jpg)";
+    
+    </script>
+</head>
+
+<body id="page-top" onload = "startTimer()" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="font-family: 'IBM Plex Sans', sans-serif;">
+        <div class="container">
+            <picture><img src="assets/img/logo%20final%20very%20very%20small.jpg"></picture><a class="navbar-brand" href="#" style="border-color: rgb(255, 255, 255);text-shadow: 2px 2px var(--bs-blue);color: var(--bs-light);font-size: 25px;font-family: 'IBM Plex Sans', sans-serif;"></a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item nav-link" style="padding-left: 0px;font-size: 12px;"><a class="nav-link" href="#about" style="margin: 0px;margin-left: 0px;padding-left: 8px;padding-right: 8px;color: var(--bs-blue);text-shadow: 2px 2px var(--bs-white);font-size: 20px;box-shadow: 0px 0px var(--bs-secondary);font-family: 'IBM Plex Sans', sans-serif;">About</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link" href="#contact" style="padding-right: 8px;color: var(--bs-blue);text-shadow: 2px 2px var(--bs-white);font-size: 20px;box-shadow: 0px 0px var(--bs-secondary);font-family: 'IBM Plex Sans', sans-serif;">contact</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link" href="#services" style="color: var(--bs-blue);text-shadow: 2px 2px var(--bs-white);font-size: 20px;font-family: 'IBM Plex Sans', sans-serif;">Services</a></li>
+                    <li class="nav-item dropdown nav-link"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#projects" style="color: var(--bs-blue);text-shadow: 2px 2px var(--bs-white);font-size: 20px;font-family: 'IBM Plex Sans', sans-serif;">Projects&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Water Supply</a><a class="dropdown-item" href="#">Structural</a><a class="dropdown-item" href="#">Civils</a><a class="dropdown-item" href="#">Buildings</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id = "img" class="masthead" style="background-image:url('assets/img/home1.jpg');">
+        <div class="intro-body" style="width: 100%;height: 100%;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading" style="color: var(--bs-blue);font-size: 66px;text-align: center;text-shadow: 2px 2px var(--bs-white), -2px -2px var(--bs-blue);font-family: 'IBM Plex Sans', sans-serif;">Civil engineers in africa</h1>
+                        <p class="intro-text"></p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="text-center content-section" id="about" style="color: rgb(0,0,0);background: var(--bs-white);width: 100%;height: 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 style="color: var(--bs-blue);text-shadow: 2px 2px var(--bs-dark);font-size: 36px;border-color: var(--bs-white);font-family: 'IBM Plex Sans', sans-serif;">About Inqubeko</h2>
+                    <p style="font-family: 'IBM Plex Sans', sans-serif;"><em>Inqubeko Consulting Engineers</em>&nbsp;is a Consulting Engineering practice established in Zululand (Northern Kwa-Zulu Natal) region in 2005, concentrating on civil and structural engineering as well as project management.&nbsp; The company is managed from offices situated at 5 Paul Avenue, Empangeni.</p>
+                    <p style="font-family: 'IBM Plex Sans', sans-serif;">The company was established by Mr. Freek Pretorius (Pr. Eng.), a former director of VGC Consulting Engineers in Richards Bay. In 2007 Mr Jaco Claase (Pr Tech Eng) joined the company as a director concentrating on Structural and Civil Engineering projects.</p>
+                    <p style="font-family: 'IBM Plex Sans', sans-serif;">The company is managed from offices situated at 5 Paul Avenue, Empangeni.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center content-section" id="contact" style="background-image: url('assets/img/home4.jpg');transform: scale(1.09) skew(0deg);width: 100%;min-width: none;height: 100%;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 style="color: var(--bs-blue);text-shadow: 2px 2px var(--bs-light);font-size: 36px;font-family: 'IBM Plex Sans', sans-serif;">Contact us</h2>
+                    <p style="color: var(--bs-light);font-size: 24px;font-family: 'IBM Plex Sans', sans-serif;">Contact us on 0022002200 or email @ example.gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer><iframe allowfullscreen="" frameborder="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBulNjmuP21kbBYi6YewnRxb5848PgtoOQ&amp;q=5+Paul+Avenue%2C+Empangeni&amp;zoom=15" width="100%" height="450"></iframe>
+        <div class="container text-center">
+            <p style="font-family: 'IBM Plex Sans', sans-serif;">Copyright ©&nbsp;Inqubeko Consulting Engineers 2021</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+    <script src="assets/js/scrollmage.js"></script>
+</body>
+
+</html>
